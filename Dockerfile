@@ -1,5 +1,5 @@
 FROM python:3.8-alpine
-
+LABEL maintainer="Full Name<rohit.gandhi@xoriant.com>"
 WORKDIR /carta/devops
 
 COPY . .
